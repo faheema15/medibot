@@ -1,5 +1,8 @@
+torch
+sentence-transformers
+faiss-cpu
+huggingface_hub
 streamlit
 langchain
-faiss-cpu
-sentence-transformers
-huggingface_hub
+langchain-community
+langchain-huggingface
