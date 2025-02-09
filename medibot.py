@@ -8,6 +8,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import PromptTemplate
 from langchain_huggingface import HuggingFaceEndpoint
 
+
 # Define Hugging Face Credentials Once
 HF_TOKEN = os.environ.get("HF_TOKEN")  # Load before using
 HUGGINGFACE_REPO_ID = "mistralai/Mistral-7B-Instruct-v0.3"
